@@ -25,7 +25,7 @@ let media = function (num1,num2,num3)
 {
    return (num1+num2+num3)/3
 }
-console.log(media(Qual sua nota no primeiro trimestre?,Qual sua nota no segundo trimestre?,Qual sua nota no terceiro trimestre?));
+console.log(media(prompt));
 
 
 
