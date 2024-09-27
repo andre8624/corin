@@ -18,14 +18,14 @@ console.log(multi(5,29));
 }
 console.log(areaQuadrado(7));
 
-let nome= parseInt (prompt('Qual sua nota no primeiro trimestre?'));
-(prompt('Qual sua nota no segundo trimestre?'));
-(prompt('Qual sua nota no terceiro trimestre?'));
+let nome= parseInt (prompt1('Qual sua nota no primeiro trimestre?'));
+(prompt2('Qual sua nota no segundo trimestre?'));
+(prompt3('Qual sua nota no terceiro trimestre?'));
 let media = function (num1,num2,num3)
 {
    return (num1+num2+num3)/3
 }
-console.log(media(prompt));
+console.log(media(prompt1,prompt2,prompt3));
 
 
 
