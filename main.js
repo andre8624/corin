@@ -7,14 +7,14 @@
  console.log(soma(10,4));
  console.log(soma(5,29));
 
- function multi(side1,side2){
-   return side1*side2;
+ function multi(num1,num2){
+   return num1*num2;
+}
+
+ function areaQuadrado(lado){
+   return lado**2;
 }
 console.log(multi(6,4));
-
-
-
-
 
 
 
