@@ -21,7 +21,6 @@ let media = function (num1,num2,num3)
 {
    return num1+num2+num3/3
 }
-   return num1+num2+num3
 console.log(soma(5,29));
 
 
