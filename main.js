@@ -1,5 +1,6 @@
  let nomeUsuario= 'Rafael, Giovani';
  alert ('nomeUsuario')
+
  function soma(num1,num2){
     return num1+num2;
  }
@@ -16,6 +17,9 @@ console.log(multi(5,29));
    return lado**2;
 }
 console.log(areaQuadrado(7));
-
+let media = function (num1,num2,num3){
+   return num1+num2+num3/1,2,3
+}
+console.log(soma(5,29));
 
 
