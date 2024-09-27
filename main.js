@@ -14,7 +14,7 @@
  function areaQuadrado(lado){
    return lado**2;
 }
-console.log(multi(6,4));
+console.log(areaQuadrado(7));
 
 
 
