@@ -19,7 +19,7 @@ console.log(multi(5,29));
 console.log(areaQuadrado(7));
 let media = function (num1,num2,num3)
 {
-   return num1+num2+num3/3
+   return (num1+num2+num3)/3
 }
 console.log(soma(5,29));
 
