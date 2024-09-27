@@ -25,3 +25,4 @@ console.log(media(7,3,2));
 
 let nome= parseInt (prompt('Qual sua nota no primeiro trimestre'));
 (prompt('Qual sua nota no segundo trimestre'));
+(prompt('Qual sua nota no terceiro trimestre'));
