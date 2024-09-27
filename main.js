@@ -23,6 +23,8 @@ let media = function (num1,num2,num3)
 }
 console.log(media(7,3,2));
 
-let nome= parseInt (prompt('Qual sua nota no primeiro trimestre'));
-(prompt('Qual sua nota no segundo trimestre'));
-(prompt('Qual sua nota no terceiro trimestre'));
+let nome= parseInt (prompt('Qual sua nota no primeiro trimestre?'))
+(prompt('Qual sua nota no segundo trimestre?'))
+(prompt('Qual sua nota no terceiro trimestre?'));{
+   return ()
+}
