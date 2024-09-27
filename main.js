@@ -7,8 +7,8 @@
  console.log(soma(10,4));
  console.log(soma(5,29));
 
- function multi(lado1,lado2){
-   return lado1*lado1;
+ function multi(side1,side2){
+   return side1*side2;
 }
 console.log(multi(6,4));
 
