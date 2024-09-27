@@ -1,4 +1,4 @@
- let nomeUsuario = 'Rafael, Giovani';
+ let nomeUsuario= 'Rafael, Giovani';
  alert ('nomeUsuario')
  function soma(num1,num2){
     return num1+num2;
