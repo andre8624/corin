@@ -26,7 +26,7 @@ let media = function (num1,num2,num3)
    return (num1+num2+num3)/3
    document.write(media(num1,num2,num3));
 }
-document.write(media(num1,num2,num3));
+
 
 let estados = ['São Paulo', 'Rio de Janeiro', 'Minas Gerais', 'Espírito Santo', 'Bahia', 'Sergipe', 'Alagoas', 'Pernambuco', 'Paraíba',
    'Rio Grande do Norte', 'Ceará', 'Piauí', 'Maranhão', 'Tocantins', 'Goiás', 'Distrito Federal', 'Mato Grosso', 'Mato Grosso do Sul',
