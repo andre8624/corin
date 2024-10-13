@@ -1,63 +1,54 @@
- let nomeUsuario= 'Rafael, Giovani';
- alert ('nomeUsuario')
+let nomeUsuario = 'Rafael, Giovani';
+alert(nomeUsuario); // Use nomeUsuario without quotes to show the variable's value
 
- function soma(num1,num2){
-    return num1+num2;
- }
- console.log(soma(6,4));
- console.log(soma(10,4));
- 
-
- function multi(num1,num2){
-   return num1*num2;
-}
-console.log(multi(5,29));
-
- function areaQuadrado(lado){
-   return lado**2;
-}
-console.log(areaQuadrado(7));
-
-let nome= parseInt (prompt('Qual sua nota no primeiro trimestre?'));
-(prompt('Qual sua nota no segundo trimestre?'));
-(prompt('Qual sua nota no terceiro trimestre?'));
-let media = function (num1,num2,num3)
-{
-   return (num1+num2+num3)/3
-   
+function soma(num1, num2) {
+    return num1 + num2;
 }
 
-// let num1 = parseInt(prompt('qual é sua nota do primeiro trimestre?'));
-// let num2 = parseInt(prompt('qual é sua nota do segundo trimestre?'));
-// let num3 = parseInt(prompt('qual é sua nota do terceiro trimestre?'));
-// function media (num1,num2,num3)
-// {
-//     return (num1+num2+num3)/3;
-// }
-// document.write(media(num1,num2,num3));
+console.log(soma(6, 4)); // Outputs 10
+console.log(soma(10, 4)); // Outputs 14
+
+function multi(num1, num2) {
+    return num1 * num2;
+}
+
+console.log(multi(5, 29)); // Outputs 145
+
+function areaQuadrado(lado) {
+    return lado ** 2; // Calculate area
+}
+
+console.log(areaQuadrado(7)); // Outputs 49
+
+// Prompt for three grades and calculate the average
+let num1 = parseInt(prompt('Qual sua nota no primeiro trimestre?'));
+let num2 = parseInt(prompt('Qual sua nota no segundo trimestre?'));
+let num3 = parseInt(prompt('Qual sua nota no terceiro trimestre?'));
+
+function media(num1, num2, num3) {
+    return (num1 + num2 + num3) / 3;
+}
+
+console.log('A média é: ' + media(num1, num2, num3));
 
 let estados = ['São Paulo', 'Rio de Janeiro', 'Minas Gerais', 'Espírito Santo', 'Bahia', 'Sergipe', 'Alagoas', 'Pernambuco', 'Paraíba',
-   'Rio Grande do Norte', 'Ceará', 'Piauí', 'Maranhão', 'Tocantins', 'Goiás', 'Distrito Federal', 'Mato Grosso', 'Mato Grosso do Sul',
-    'Acre', 'Amapá', 'Pará', 'Amazonas', 'Roraima', 'Santa Catarina', 'Rio Grande do Sul', 'Paraná','Rondônia'];
+    'Rio Grande do Norte', 'Ceará', 'Piauí', 'Maranhão', 'Tocantins', 'Goiás', 'Distrito Federal', 'Mato Grosso', 'Mato Grosso do Sul',
+    'Acre', 'Amapá', 'Pará', 'Amazonas', 'Roraima', 'Santa Catarina', 'Rio Grande do Sul', 'Paraná', 'Rondônia'];
 
-  //   let i = 0;
-  //   while (i<estados.length){
-  //     console.log(i)
-  //     console.log(estados[i]);
-  //     i++
-  //   }
-  for (let j = 0; j< estados.length; j++){ 
-      console.log(j)    
-       console.log(estados[j]);  
-  }
-  let idade1 = parseInt (pronpt('qual a sua idade?'));
-  let idade = idade1
+for (let j = 0; j < estados.length; j++) {
+    console.log(j); // Print index
+    console.log(estados[j]); // Print state
+}
+
+let idade1 = parseInt(prompt('Qual a sua idade?')); // Corrected 'pronpt' to 'prompt'
+let idade = idade1;
+
 if (idade > 17) {
-  console.log('pode dirigir');
+    console.log('Pode dirigir');
+} else {
+    console.log('Ilegal dirigir');
 }
-else {
-console.log('ilegal dirigir');
-}
+
 
 
 
