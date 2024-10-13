@@ -1,26 +1,26 @@
 let nomeUsuario = 'Rafael, Giovani';
-alert(nomeUsuario); // Use nomeUsuario without quotes to show the variable's value
+alert(nomeUsuario);  
 
 function soma(num1, num2) {
     return num1 + num2;
 }
 
-console.log(soma(6, 4)); // Outputs 10
-console.log(soma(10, 4)); // Outputs 14
+console.log(soma(6, 4)); 
+console.log(soma(10, 4)); 
 
 function multi(num1, num2) {
     return num1 * num2;
 }
 
-console.log(multi(5, 29)); // Outputs 145
+console.log(multi(5, 29)); 
 
 function areaQuadrado(lado) {
-    return lado ** 2; // Calculate area
+    return lado ** 2; 
 }
 
-console.log(areaQuadrado(7)); // Outputs 49
+console.log(areaQuadrado(7)); 
 
-// Prompt for three grades and calculate the average
+
 let num1 = parseInt(prompt('Qual sua nota no primeiro trimestre?'));
 let num2 = parseInt(prompt('Qual sua nota no segundo trimestre?'));
 let num3 = parseInt(prompt('Qual sua nota no terceiro trimestre?'));
@@ -40,7 +40,7 @@ for (let j = 0; j < estados.length; j++) {
     console.log(estados[j]); // Print state
 }
 
-let idade1 = parseInt(prompt('Qual a sua idade?')); // Corrected 'pronpt' to 'prompt'
+let idade1 = parseInt(prompt('Qual a sua idade?')); 
 let idade = idade1;
 
 if (idade > 17) {
@@ -50,7 +50,3 @@ if (idade > 17) {
 }
 
 
-
-
-
-   
