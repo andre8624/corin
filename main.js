@@ -24,8 +24,8 @@ let nome= parseInt (prompt('Qual sua nota no primeiro trimestre?'));
 let media = function (num1,num2,num3)
 {
    return (num1+num2+num3)/3
+   document.write(media(num1,num2,num3));
 }
-document.write(media(num1,num2,num3));
 console.log(media(11,5,30));
 
 let estados = ['São Paulo', 'Rio de Janeiro', 'Minas Gerais', 'Espírito Santo', 'Bahia', 'Sergipe', 'Alagoas', 'Pernambuco', 'Paraíba',
