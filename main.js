@@ -24,9 +24,9 @@ let nome= parseInt (prompt('Qual sua nota no primeiro trimestre?'));
 let media = function (num1,num2,num3)
 {
    return (num1+num2+num3)/3
-   document.write(media(num1,num2,num3));
+   
 }
-
+document.write(media(num1,num2,num3));
 
 let estados = ['São Paulo', 'Rio de Janeiro', 'Minas Gerais', 'Espírito Santo', 'Bahia', 'Sergipe', 'Alagoas', 'Pernambuco', 'Paraíba',
    'Rio Grande do Norte', 'Ceará', 'Piauí', 'Maranhão', 'Tocantins', 'Goiás', 'Distrito Federal', 'Mato Grosso', 'Mato Grosso do Sul',
@@ -36,6 +36,7 @@ let estados = ['São Paulo', 'Rio de Janeiro', 'Minas Gerais', 'Espírito Santo'
       console.log(j)    
        console.log(estados[j]);  
   }
+
   let idade1 = parseInt (pronpt('qual a sua idade?'));
   let idade = idade1
 if (idade > 17) {
