@@ -26,17 +26,30 @@ let media = function (num1,num2,num3)
    return (num1+num2+num3)/3
    
 }
-document.write(media(num1,num2,num3));
+
+// let num1 = parseInt(prompt('qual é sua nota do primeiro trimestre?'));
+// let num2 = parseInt(prompt('qual é sua nota do segundo trimestre?'));
+// let num3 = parseInt(prompt('qual é sua nota do terceiro trimestre?'));
+// function media (num1,num2,num3)
+// {
+//     return (num1+num2+num3)/3;
+// }
+// document.write(media(num1,num2,num3));
 
 let estados = ['São Paulo', 'Rio de Janeiro', 'Minas Gerais', 'Espírito Santo', 'Bahia', 'Sergipe', 'Alagoas', 'Pernambuco', 'Paraíba',
    'Rio Grande do Norte', 'Ceará', 'Piauí', 'Maranhão', 'Tocantins', 'Goiás', 'Distrito Federal', 'Mato Grosso', 'Mato Grosso do Sul',
     'Acre', 'Amapá', 'Pará', 'Amazonas', 'Roraima', 'Santa Catarina', 'Rio Grande do Sul', 'Paraná','Rondônia'];
 
+  //   let i = 0;
+  //   while (i<estados.length){
+  //     console.log(i)
+  //     console.log(estados[i]);
+  //     i++
+  //   }
   for (let j = 0; j< estados.length; j++){ 
       console.log(j)    
        console.log(estados[j]);  
   }
-
   let idade1 = parseInt (pronpt('qual a sua idade?'));
   let idade = idade1
 if (idade > 17) {
